@@ -1,0 +1,31 @@
+.loader-container {
+  width: 300px;
+  margin: 32px auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loader {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border-bottom: 6px solid #00a09d;
+  animation: rotate 3s linear 0s infinite;
+}
+
+.text {
+  color: #00a09d;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}

@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 340px;
+  margin: 0 auto;
+}
+
+.radio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  input {
+    width: 25px;
+  }
+}
+.btn-clear {
+  height: 36px;
+  padding: 0 10px;
+  text-align: center;
+  outline: none;
+  transition: all 0.5s ease;
+  border-radius: 6px;
+  border: 1px solid #eaeaee;
+  font-size: 1em;
+  line-height: 19px;
+  box-sizing: border-box;
+  display: inline-flex;
+  justify-content: center;
+  align-content: center;
+  background-color: #eaeaee;
+  &:hover {
+    background-color: #acabbc;
+    border-color: #acabbc;
+  }
+  &:active {
+    background-color: #d6d5de;
+    border-color: #d6d5de;
+  }
+}

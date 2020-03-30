@@ -1,0 +1,45 @@
+.card {
+  max-width: 90%;
+  width: 330px;
+  padding: 12px;
+  margin: 4px 8px;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0px 2px 4px rgba(#000, 0.2);
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.genreList {
+  display: flex;
+}
+
+.btn-delete {
+  height: 34px;
+  margin: 0;
+  padding: 0 10px;
+  text-align: center;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+  transition: all 0.5s ease;
+  color: #e02020;
+  background-color: transparent;
+  border: 1px solid #e02020;
+  border-radius: 6px;
+  font-size: 1em;
+  line-height: 19px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.btn-delete:hover {
+  background-color: #e02020;
+  color: #fff;
+}

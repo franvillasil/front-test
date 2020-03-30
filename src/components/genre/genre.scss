@@ -1,0 +1,17 @@
+.tag {
+  width: 66px;
+  height: 24px;
+  margin: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 21px;
+  background-color: #d6d5de;
+
+  p {
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+    line-height: 13px;
+    color: #302d58;
+  }
+}
